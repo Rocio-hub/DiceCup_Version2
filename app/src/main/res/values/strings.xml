@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Assignment1_DiceCup</string>
+    <string name="dice_number_2">dice number 2</string>
+    <string name="dice_number_1">dice number 1</string>
+    <string name="dice_number_3">dice number 3</string>
+    <string name="dice_number_4">dice number 4</string>
+    <string name="dice_number_5">dice number 5</string>
+    <string name="dice_number_6">dice number 6</string>
+    <string name="roll">ROLL</string>
+    <string name="button_to_see_history_activity">button to see history activity</string>
+    <string name="back">BACK</string>
+    <string name="clear_history">CLEAR HISTORY</string>
+    <string name="history_button">history button</string>
+    <string name="dice_2">dice 2</string>
+    <string name="dice_1">dice 1</string>
+    <string name="dice_3">dice 3</string>
+    <string name="dice_4">dice 4</string>
+    <string name="dice_5">dice 5</string>
+    <string name="dice_6">dice 6</string>
+</resources>

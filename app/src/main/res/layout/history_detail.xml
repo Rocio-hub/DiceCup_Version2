@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gold">
+
+    <TextView
+        android:id="@+id/textView_currentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="11:11:11" />
+
+    <ImageView
+        android:id="@+id/imageView_dice1"
+        style="@style/diceHistory_style"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/dice_1"
+        app:layout_constraintStart_toEndOf="@+id/textView_currentTime"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dice1" />
+
+    <ImageView
+        android:id="@+id/imageView_dice2"
+        style="@style/diceHistory_style"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/dice_2"
+        app:layout_constraintStart_toEndOf="@+id/imageView_dice1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dice2" />
+
+    <ImageView
+        android:id="@+id/imageView_dice3"
+        style="@style/diceHistory_style"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/dice_3"
+        app:layout_constraintStart_toEndOf="@+id/imageView_dice2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dice3" />
+
+    <ImageView
+        android:id="@+id/imageView_dice4"
+        style="@style/diceHistory_style"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/dice_4"
+        app:layout_constraintStart_toEndOf="@+id/imageView_dice3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dice4" />
+
+    <ImageView
+        android:id="@+id/imageView_dice5"
+        style="@style/diceHistory_style"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/dice_5"
+        app:layout_constraintStart_toEndOf="@+id/imageView_dice4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dice5" />
+
+    <ImageView
+        android:id="@+id/imageView_dice6"
+        style="@style/diceHistory_style"
+        android:layout_marginStart="10dp"
+        android:contentDescription="@string/dice_6"
+        app:layout_constraintStart_toEndOf="@+id/imageView_dice5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dice6" />
+</androidx.constraintlayout.widget.ConstraintLayout>
